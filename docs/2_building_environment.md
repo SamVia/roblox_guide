@@ -36,3 +36,12 @@ This guide covers constructing the game world, from blockouts to detailed terrai
 * Reflective platforms use `Reflectance=1` and Smoothed Plastic.
 * Neon materials emit light.
 * Curved platforms create interesting effects when combined with detailed skyboxes (planets, clouds).
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><a href="1_game_design.md">Previous</a></td>
+      <td align="center"><a href="3_collaboration.md">Next</a></td>
+    </tr>
+  </table>
+</div>
