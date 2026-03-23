@@ -18,13 +18,43 @@ Welcome to the comprehensive guide for teaching and learning Roblox game develop
 3. **[Collaboration & Sharing](docs/3_collaboration.md)**: Using Team Create, syncing work, and exporting assets.
 4.  **[Audio](docs/4_audio.md)**: Impleenting sound effects and background music.
 5.  **[NPCs](docs/5_NPCs.md)**: Character models, vendors and animals.
-
+6. **[Units of Measurement](docs/6_units.md)**: Real world units vs Roblox units.
 ## Script Library
 Navigate to the `/scripts` folder to find raw code for mechanics like:
-* Disappearing/fading platforms and deadly hazards.
-* Teleporters, jump pads, and speed boosts.
-* Coin collection, leaderboards, and data saving.
-* Interactive doors and UI buttons.
+* ### 1. Environment (`/environment`)
+    Scripts used to make the physical world interactive and dangerous.
+    * **`appear_disappear_platforms.lua`**: Uses simple loops to alter a platform's `CanCollide` and `Transparency` properties.
+    * **`fading_platform.lua`**: Uses a `for` loop to gradually increase transparency before removing collision.
+    * **`deadly_lava.lua`**: A hazard script that detects touches and reduces a player's Humanoid Health to 0.
+    * **`proximity_door.lua`**: Uses a `ProximityPrompt` to toggle a door between open (invisible and players can walk through) and closed (solid and visible).
+    * **`elevator.lua`**: A physics-based elevator script utilizing `LinearVelocity` and `task.wait()`.
+
+* ### 2. Movement (`/movement`)
+    Mechanics that alter how players navigate your game world.
+    * **`jumping_pad.lua`**: Uses `BodyVelocity` to forcefully push a player upward upon contact.
+    * **`teleport_pad.lua`**: Safely moves a player by updating their `HumanoidRootPart.CFrame` and uses a debounce to prevent infinite teleportation loops.
+    * **`speed_boost_pad.lua`**: Temporarily increases a player's `WalkSpeed` for 5 seconds when stepped on.
+    * **`cross_game_teleport.lua`**: Uses `TeleportService` and a destination Place ID to move players to an entirely different Roblox experience.
+
+* ### 3. Mechanics (`/mechanics`)
+    The core background logic that runs the rules of your game.
+    * **`coin_collection.lua`**: Handles item pick-ups, making coins disappear and reappear after a cooldown by detecting the `Enabled` boolean attribute.
+    * **`leaderboard_points.lua`**: A centralized script that manages `leaderstats` and resets points when a player's Health reaches 0.
+    * **`datastore_manager.lua`**: Uses protected calls (`pcall`) to automatically save and load player data (like coins) to prevent game-breaking errors.
+
+* ### 4. NPCs (`/npc`)
+    Scripts to build interactive non-playable characters and shops.
+    * **`npc_dialogue.lua`**: Connects to the built-in Dialog system to trigger actions when specific dialogue choices are selected.
+    * **`npc_roaming.lua`**: Commands a rigged entity to patrol between invisible waypoints.
+    * **`vendor_shop.lua`**: A script linked to a ProximityPrompt that checks a player's `leaderstats` to see if they can afford an item.
+
+* ### 5. User Interface (`/ui`)
+    Scripts to make your on-screen menus responsive and intuitive.
+    * **`clicker_button.client.lua`**: A LocalScript that counts how many times a ScreenGui TextButton is clicked.
+    * **`open_ui_button.client.lua`**: A LocalScript that toggles the visibility of a menu frame on and off.
+
+* ### 6. Misc (`/misc`)
+    * **`flashlight.client.lua`**: An equippable tool LocalScript that toggles a `SpotLight` on and off when the player clicks to activate it.
 
 ## Hardware & Software Requirements
 
