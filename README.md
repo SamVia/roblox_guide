@@ -13,6 +13,7 @@ Welcome to the comprehensive guide for teaching and learning Roblox game develop
 ##  Documentation Modules
 
 0.   **[Introduction to Studio](docs\0_introduction_to_roblox.md)**: Platform basics, optimizing performance, and analyzing educational games.
+1.  **[Game Design & Prototyping](docs/1_game_design.md)**: Core loops, game genres, UI/UX, and designing quests.
 
 
 ## Script Library

@@ -17,6 +17,6 @@ Analyzing existing games is a great way to kick off a session.
 <table style="width:100%">
   <tr>
     <td align="center"><a href="../README.md">Home</a></td>
-    <td align="center"><a href="">Next </a></td>
+    <td align="center"><a href="1_game_design">Next </a></td>
   </tr>
 </table>
