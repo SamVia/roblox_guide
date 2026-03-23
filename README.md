@@ -16,6 +16,7 @@ Welcome to the comprehensive guide for teaching and learning Roblox game develop
 1.  **[Game Design & Prototyping](docs/1_game_design.md)**: Core loops, game genres, UI/UX, and designing quests.
 2.  **[Building & Environment](docs/2_building_environment.md)**: Greyboxing, terrain generation, lighting, and textures.
 3. **[Collaboration & Sharing](docs/3_collaboration.md)**: Using Team Create, syncing work, and exporting assets.
+4.  **[Audio](docs/4_audio.md)**: Impleenting sound effects and background music.
 
 
 ## Script Library

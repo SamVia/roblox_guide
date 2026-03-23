@@ -14,3 +14,12 @@ Working together is essential for group projects. Here is how to utilize Team Cr
 * **External Files (.rbxm):** Right-click an object, select **Save to File**, and share the `.rbxm` file via email. The recipient can drag-and-drop it into their Studio.
 * **Roblox Cloud (Assets):** Right-click and **Save to Roblox**. Set permissions to Public (for the general Toolbox) or Private (granting use to specific friends).
 * **Other Software (.obj):** Use **Export Selection** to save an `.obj` file for Blender or 3D printing. It includes 3D geometry, but textures/decals must be sent as separate image files (.png/.jpg).
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><a href="2_building_environment.md">Previous</a></td>
+      <td align="center"><a href="4_audio.md">Next</a></td>
+    </tr>
+  </table>
+</div>
