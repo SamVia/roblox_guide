@@ -14,3 +14,11 @@
 * **Static Decor Animals:** For background atmosphere (like a sleeping dog or a perched bird), you can use basic unrigged models from the Toolbox. Anchor the model and, if desired, add a looping audio emitter (like a purring or chirping sound).
 * **Moving Entities:** If you want an animal or monster to roam, it needs to be a rigged model containing a `Humanoid` object. You can use standard scripting functions like `Humanoid:MoveTo()` to make the entity walk toward specific coordinate vectors or invisible waypoints.
 * **Custom Rigs:** Unlike standard players, animals often use custom skeletal rigs (e.g., four legs instead of two). To make them look alive while moving, you will need to apply a looping "Walk" animation via an `Animator` script inside the entity.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><a href="4_audio.md">Previous</a></td>
+      <td align="center"><a href="6_units.md">Next</a></td>
+    </tr>
+  </table>
+</div>
