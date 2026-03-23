@@ -12,12 +12,8 @@ Welcome to the comprehensive guide for teaching and learning Roblox game develop
 
 ##  Documentation Modules
 
-1.  **[Workshop Logistics](docs/01_workshop_logistics.md)**: Hardware requirements, activity plans, and session formats.
-2.  **[Introduction to Studio](docs/02_intro_to_studio.md)**: Platform basics, optimizing performance, and analyzing educational games.
-3.  **[Game Design & Prototyping](docs/03_game_design.md)**: Core loops, game genres, UI/UX, and designing quests.
-4.  **[Building & Environment](docs/04_building_environment.md)**: Greyboxing, terrain generation, lighting, and textures.
-5.  **[Collaboration & Sharing](docs/05_collaboration.md)**: Using Team Create, syncing work, and exporting assets.
-6.  **[Audio & NPCs](docs/06_audio_and_npcs.md)**: Implementing sound effects, background music, and character models.
+0.   **[Introduction to Studio](docs\0_introduction_to_roblox.md)**: Platform basics, optimizing performance, and analyzing educational games.
+
 
 ## Script Library
 Navigate to the `/scripts` folder to find raw code for mechanics like:
