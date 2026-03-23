@@ -30,7 +30,7 @@ Understanding core design concepts helps students structure their ideas before b
   <table>
     <tr>
       <td align="center"><a href="0_introduction_to_roblox.md">Previous</a></td>
-      <td align="center"><a href="">Next</a></td>
+      <td align="center"><a href="2_building_environment.md">Next</a></td>
     </tr>
   </table>
 </div>
