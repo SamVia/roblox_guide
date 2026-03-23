@@ -17,7 +17,7 @@ Welcome to the comprehensive guide for teaching and learning Roblox game develop
 2.  **[Building & Environment](docs/2_building_environment.md)**: Greyboxing, terrain generation, lighting, and textures.
 3. **[Collaboration & Sharing](docs/3_collaboration.md)**: Using Team Create, syncing work, and exporting assets.
 4.  **[Audio](docs/4_audio.md)**: Impleenting sound effects and background music.
-
+5.  **[NPCs](docs/5_NPCs.md)**: Character models, vendors and animals.
 
 ## Script Library
 Navigate to the `/scripts` folder to find raw code for mechanics like:

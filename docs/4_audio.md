@@ -12,3 +12,11 @@
 | **Volume** | Adjusts how loud the music is (0 to 10). Usually, 0.5 is good for background. |
 | **PlaybackSpeed** | Can make the music faster/higher-pitched or slower/lower-pitched. |
 | **RollOffMaxDistance** | If the sound is inside a "Part" in the world, this dictates how far away players can hear it. |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><a href="./3_collaboration.md">Previous</a></td>
+      <td align="center"><a href="./5_NPCs.md">Next</a></td>
+    </tr>
+  </table>
+</div>
