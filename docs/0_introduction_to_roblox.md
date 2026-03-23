@@ -14,9 +14,11 @@ Analyzing existing games is a great way to kick off a session.
 * **Be Internet Awesome World**: Features tasks like replacing negative comments with positive ones to unlock bridges.
 * **Other examples to test**: *Chem lab escape*, *Lua learning*, and *Natural disaster survival*.
 * **Story Games**: Educational tools can generate a magical book that creates stories based on simple questions, though it is not suitable for highly complex narratives. Stories can be prototyped using variables, `if` statements, and `while` loops.
-<table style="width:100%">
-  <tr>
-    <td align="center"><a href="../README.md">Home</a></td>
-    <td align="center"><a href="1_game_design.md">Next </a></td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><a href="../README.md">Home</a></td>
+      <td align="center"><a href="1_game_design.md">Next </a></td>
+    </tr>
+  </table>
+</div>
