@@ -19,6 +19,7 @@ Welcome to the comprehensive guide for teaching and learning Roblox game develop
 4.  **[Audio](docs/4_audio.md)**: Impleenting sound effects and background music.
 5.  **[NPCs](docs/5_NPCs.md)**: Character models, vendors and animals.
 6. **[Units of Measurement](docs/6_units.md)**: Real world units vs Roblox units.
+7. **[Plugins](docs/7_plugins.md)**: External scripts that help in various situations.
 ## Script Library
 Navigate to the `/scripts` folder to find raw code for mechanics like:
 * ### 1. Environment (`/environment`)

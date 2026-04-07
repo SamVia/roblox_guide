@@ -45,7 +45,7 @@ Roblox officially uses the following baseline metric conversions for its engine 
   <table>
     <tr>
       <td align="center"><a href="5_NPCs.md">Previous</a></td>
-      <td align="center"><a href="../README.md">Next</a></td>
+      <td align="center"><a href="./7_plugins.md">Next</a></td>
     </tr>
   </table>
 </div>
