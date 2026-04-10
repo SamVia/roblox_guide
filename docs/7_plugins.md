@@ -22,6 +22,27 @@ Plugins are custom add-ons created by the Roblox community that extend the funct
   * **Ro-Scale Compatibility:** An option specifically for railway developers that automatically generates realistic rails, ties, and ballasts with standard hitboxes based on real-world train lines.
   * **Default Height:** A fallback parameter that assigns a specific height to buildings that lack complete elevation data in the OSM database.
   * **EditableModules:** Advanced developers can modify the plugin's source `.rbxm` files to write custom Lua tables. This allows you to intercept specific OSM tags (like `highway=residential`) to dictate the exact Roblox materials, colors, and parts the plugin uses during generation.
+## Issues
+The buildings generated in this way are not solid, you can pass through them. There is a solution to make them "touchable", using this script:
+```lua
+for _, item in pairs(game.Workspace.World.Buildings:GetDescendants()) do
+    if item:IsA("BasePart") then
+        item.CanCollide = true
+        item.Anchored = true -- Highly recommended for buildings!
+    end
+end
+```
+Since the script would make all existing items in the Worksapce World in the folder Buildings with the following properties, it is highly recommended to generate the world before and run the script, than have other components while running the script.
+
+* **how to turn on command bar:**
+  Open the Command Bar and Output Window, by default, the Command Bar might be hidden.
+  At the top of the screen, click on the View tab.
+  Click the Command Bar icon to toggle it on. A long text input box will appear, usually at the very bottom of your Studio window.
+  While you are in the View tab, also make sure the Output window is toggled on. This is where you will see any printed messages or errors from your scripts.
+* **How to execute code**:
+  Click inside the Command Bar at the bottom of your screen.
+  Type or paste the code.
+  Finally press Enter on your keyboard to run the script.
 
 <div align="center">
   <table>
