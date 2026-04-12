@@ -37,6 +37,13 @@ This guide covers constructing the game world, from blockouts to detailed terrai
 * Neon materials emit light.
 * Curved platforms create interesting effects when combined with detailed skyboxes (planets, clouds).
 
+
+## Templates
+* Roblox Studio has some templates for starting your game environment from an already solid base, instead of building everything from scratch.
+* When creating a new experience, try starting from Castle, or Racing game, or Modern City templates, for example.
+* Some of the templates are more focused on environmental building, and have a set of pre-made assets (such as roads, buildings) that you can take and copy-paste to build your environment according to that theme (for example, a modern city).
+* Other templates include some scripting to form the basis for some game mechanics, such as player scoring, movement of platforms...
+
 <div align="center">
   <table>
     <tr>
